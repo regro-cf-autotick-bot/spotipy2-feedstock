@@ -1,5 +1,5 @@
 {% set name = "spotipy2" %}
-{% set version = "0.5" %}
+{% set version = "0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/CyanBook/spotipy2/archive/v{{ version }}.tar.gz
-  sha256: 87003cefcb133c51d2a893c80d7afc103011c5d8030dc5fd9c07dbb07881e28e
+  sha256: f230999c0a9ddceed8c69f30324e4d936faefe5c5145d79147b4b059caa6e50a
 
 build:
   noarch: python
